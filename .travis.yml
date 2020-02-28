@@ -1,0 +1,5 @@
+services:
+  - docker
+script:
+  - docker image build -t l0uwhite/blahtest . 
+  - docker container run l0uwhite/blahtest
